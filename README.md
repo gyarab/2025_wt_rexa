@@ -1,26 +1,27 @@
 # Larry Tesler
 
-Larry Tesler byl americký informatik a designér uživatelských rozhraní, který významně přispěl k vývoji osobních počítačů. Pracoval pro společnosti jako Xerox PARC, Apple, Amazon a Yahoo. Je známý především díky popularizaci konceptu **"cut, copy, paste"** (vyjmout, kopírovat, vložit), který dnes považujeme za naprostý standard v ovládání počítačů.
+Larry Tesler byl americký informatik a designér uživatelského rozhraní, který se proslavil zavedením konceptu **cut / copy / paste** (vyjmout, kopírovat, vložit). Během své kariéry pracoval pro významné technologické firmy jako Xerox PARC, Apple, Amazon a Yahoo. Byl zastáncem jednoduchého a intuitivního ovládání počítačů a známý odporem vůči režimům („**no modes**“), které považoval za zbytečně matoucí pro uživatele.
 
-Tesler prosazoval myšlenku, že technologie by měla být **uživatelsky přívětivá** a neměla by uživatele zbytečně zatěžovat složitostí. I proto bojoval za zjednodušení softwaru a intuitivní ovládání.
+Tesler svými myšlenkami a přístupem ovlivnil podobu dnešních operačních systémů a programů.
 
 ## Jeho přínosy:
 
-- Zavedl koncept **cut / copy / paste** v textových editorech
-- Pracoval na vývoji Lisa a Macintosh v Apple
-- Byl propagátorem myšlenky „**no modes**“ – tedy bez režimů, pro snadnější ovládání
-- Pomáhal formovat uživatelské prostředí, jak ho známe dnes
+- Zavedení klíčových funkcí: **cut / copy / paste**
+- Práce na počítačích Apple Lisa a Macintosh
+- Propagace filozofie „no modes“
+- Spolupráce s firmami jako Xerox, Apple, Amazon, Yahoo
 
-Více o něm si můžeš přečíst [zde na Wikipedii](https://en.wikipedia.org/wiki/Larry_Tesler)
+Více informací: [Wikipedia – Larry Tesler (EN)](https://en.wikipedia.org/wiki/Larry_Tesler)
 
-![Larry Tesler](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Larry_Tesler_May_2007.jpg/640px-Larry_Tesler_May_2007.jpg)
+![Larry Tesler](https://upload.wikimedia.org/wikipedia/commons/e/e6/Larry_Tesler_May_2007.jpg)
 
-## Významné roky:
+## Významné milníky:
 
-| Rok  | Událost                                     |
-|------|---------------------------------------------|
-| 1945 | Narození                                     |
-| 1973 | Začal pracovat v Xerox PARC                  |
-| 1980 | Přestup do Apple                             |
-| 2001 | Pracoval pro Amazon a později Yahoo          |
-| 2020 | Zemřel ve věku 74 let                        |
+| Rok  | Událost                                |
+|------|----------------------------------------|
+| 1945 | Narození v New Yorku                   |
+| 1973 | Začal pracovat v Xerox PARC            |
+| 1980 | Přestoupil do Apple                    |
+| 2001 | Začal pracovat pro Amazon              |
+| 2005 | Působil ve společnosti Yahoo!          |
+| 2020 | Zemřel ve věku 74 let  
