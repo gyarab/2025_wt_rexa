@@ -13,7 +13,7 @@ Tesler svými myšlenkami a přístupem ovlivnil podobu dnešních operačních 
 
 Více informací: [Wikipedia – Larry Tesler (EN)](https://en.wikipedia.org/wiki/Larry_Tesler)
 
-![Larry Tesler]([https://upload.wikimedia.org/wikipedia/commons/e/e6/Larry_Tesler_May_2007.jpg](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/BEE2/production/_110966884_gettyimages-136021377.jpg.webp))
+![Larry Tesler](https://upload.wikimedia.org/wikipedia/commons/e/e6/Larry_Tesler_May_2007.jpg)
 
 ## Významné milníky:
 
