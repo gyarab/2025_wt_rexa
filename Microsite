@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Microsite</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1600x600') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .cta {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #007BFF;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">MyMicrosite</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#cta">Get Started</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to My Microsite</h1>
+  </section>
+
+  <section id="about">
+    <h2>About This Site</h2>
+    <p>This is a clean and simple microsite template built with just HTML and CSS. Use it to showcase a product, promote an event, or share a message.</p>
+  </section>
+
+  <section class="cta" id="cta">
+    <h2>Ready to Get Started?</h2>
+    <p>Click the button below to take action.</p>
+    <a href="#">Get Started</a>
+  </section>
+
+  <footer>
+    &copy; 2025 MyMicrosite. All rights reserved.
+  </footer>
+
+</body>
+</html>
 
