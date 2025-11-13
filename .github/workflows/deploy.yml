@@ -1,37 +1,32 @@
-name: Deploy microsite to GitHub pages
+name: Deploy microsite to GitHub Pages
+
+# Trigger on any push to main, or manual workflow_dispatch
 on:
   push:
-    paths:
-      - "microsite/**"
   workflow_dispatch:
-    inputs:
-      environment:
-        type: string
-        default: foo
-        required: true  
+
 jobs:
   deploy:
     permissions:
       pages: write
       id-token: write
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
     runs-on: ubuntu-latest
     steps:
+      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Setup GitHub Pages deployment
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      # Upload the folder you want to deploy
       - name: Upload microsite folder
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./microsite/index.html
+          path: ./microsite   # <- folder is still named microsite
 
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
