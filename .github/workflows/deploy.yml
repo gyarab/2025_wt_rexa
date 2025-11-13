@@ -1,21 +1,25 @@
-name: Deploy static site to GitHub Pages
-
+name: Deploy microsite to GitHub Pages
 on:
   push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   deploy:
+    permissions:
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
-      - name: Deploy microsite directory to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site folder
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./microsite
-          keep_files: false
+          path: ./microsite
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
