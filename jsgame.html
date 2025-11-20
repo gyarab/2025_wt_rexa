@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Game</title>
+</head>
+<body>
+    <h1>JS Game</h1>
+
+    <input id="newGameBtn" type="button" value="New Game">
+    <br><br>
+
+    <input id="guess" type="number" name="guess" min="0" placeholder="Your guess">
+    <input id="guessBtn" type="button" value="Zkus">
+
+    <p>Pocet pokusu: <span id="attempts">0</span></p>
+    <p id="message"></p>
+
+    <script>
+        let secretNumber;
+        let attempts;
+
+        function newGame() {
+            secretNumber = Math.floor(Math.random() * 20) + 1;
+            attempts = 0;
+
+            document.getElementById("attempts").textContent = attempts;
+            document.getElementById("message").textContent = "Nova hra zacala! Hadej 1–20.";
+            document.getElementById("guess").value = "";
+
+            console.log("Nova hra — tajne cislo:", secretNumber);
+        }
+
+        function checkGuess() {
+            const guessInput = document.getElementById("guess");
+            const guess = Number(guessInput.value);
+
+            if (!guessInput.value) {
+                document.getElementById("message").textContent = "Zadej cislo!";
+                return;
+            }
+
+            attempts++;
+            document.getElementById("attempts").textContent = attempts;
+
+            if (guess === secretNumber) {
+                document.getElementById("message").textContent = `Spravne! Cislo bylo ${secretNumber}.`;
+            } else if (guess < secretNumber) {
+                document.getElementById("message").textContent = "Zkus vyssi cislo.";
+            } else {
+                document.getElementById("message").textContent = "Zkus nizsi cislo.";
+            }
+        }
+
+        document.getElementById("guessBtn").addEventListener("click", checkGuess);
+        document.getElementById("newGameBtn").addEventListener("click", newGame);
+
+        newGame();
+    </script>
+</body>
+</html>
