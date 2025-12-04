@@ -1,4 +1,4 @@
-# Lidl
+#Lidl
 
 Lídl má v logu dohromady 3 barvy : modrá, žlutá, červená.
 Modrá reprezentuje důvěru a spolehlivost. Žlutá má vyvolat pocit optimismu a přátelství. Červené barvy je v logu nejméně a představuje pocit naléhavosti, aby si zákazník něco rychle koupil.
